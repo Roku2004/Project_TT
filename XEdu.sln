@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEdu.Api", "XEdu.Api\XEdu.Api.csproj", "{AD61E551-4F58-464C-B34E-4E697909499B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEdu.Core", "XEdu.Core\XEdu.Core.csproj", "{75420B94-2057-4E47-BA88-4F171B8D6E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEdu.Infrastructure", "XEdu.Infrastructure\XEdu.Infrastructure.csproj", "{988416D3-008A-4057-B2FF-0C8BA5A43A24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD61E551-4F58-464C-B34E-4E697909499B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD61E551-4F58-464C-B34E-4E697909499B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD61E551-4F58-464C-B34E-4E697909499B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD61E551-4F58-464C-B34E-4E697909499B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75420B94-2057-4E47-BA88-4F171B8D6E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75420B94-2057-4E47-BA88-4F171B8D6E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75420B94-2057-4E47-BA88-4F171B8D6E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75420B94-2057-4E47-BA88-4F171B8D6E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988416D3-008A-4057-B2FF-0C8BA5A43A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988416D3-008A-4057-B2FF-0C8BA5A43A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988416D3-008A-4057-B2FF-0C8BA5A43A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988416D3-008A-4057-B2FF-0C8BA5A43A24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

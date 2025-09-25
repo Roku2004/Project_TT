@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  xedu-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xedu-net-api
+    ports:
+      - "8807:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=14.162.146.23:3307;Database=xedu;User=xedu;Password=xedu@2025;
+      - Jwt__Secret=myVerySecureSecretKeyThatIs256BitsLongForJWTTokenGenerationAndShouldBeAtLeast32Characters
+    depends_on:
+      - xedu-net-ui
+    networks:
+      - xedu-net-network
+
+  xedu-ui:
+    build:
+      context: ./XEdu.UI
+      dockerfile: Dockerfile
+    container_name: xedu-net-ui
+    ports:
+      - "8809:80"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8803/api
+    networks:
+      - xedu-net-network
+
+networks:
+  xedu-net-network:
+    external: true
+    name: xedu-net-network

@@ -1,0 +1,18 @@
+1. Chưa tối ưu cho mobile
+
+4/8/2025 : 
++ tạm thời bỏ qua admin tập trung role teacher, student
++ profile controller còn đổi pass, xác thực email chưa lm
+
+6/8/2025:
++ convert xog teachercontroller (xog theo bản java)
+
+7/8/2025:
++ lấy danh sách câu hỏi và đáp án theo query sau:
+
+9/8/2025:
++ chưa làm phần thống kê trong hồ sơ của tôi
+
+
+11/8/2025:
++ ghép nối be vs fe phần lớp học của giáo viên xog
